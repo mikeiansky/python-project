@@ -27,3 +27,6 @@ def insert():
     data = {"name": f"John-{tag}", "address": f"Highway 37-{tag}"}
     insert_result = collection.insert_one(data)
     print(insert_result)
+
+if __name__ == '__main__':
+    insert()

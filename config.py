@@ -18,6 +18,7 @@ class CiweiConfig(Config):
 class HomeConfig(Config):
     TAG = 'home'
     SECRET_KEY = 'home_key'
+    MONGO_HOST = '192.168.26.128'
 
 
-config = CiweiConfig
+config = HomeConfig
