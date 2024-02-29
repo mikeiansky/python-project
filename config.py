@@ -17,7 +17,7 @@ class CiweiConfig(Config):
 
 class HomeConfig(Config):
     TAG = 'home'
-    SECRET_KEY = 'hoem_key'
+    SECRET_KEY = 'home_key'
 
 
 config = CiweiConfig
