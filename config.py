@@ -21,4 +21,4 @@ class HomeConfig(Config):
     MONGO_HOST = '192.168.26.128'
 
 
-config = HomeConfig
+config = CiweiConfig
